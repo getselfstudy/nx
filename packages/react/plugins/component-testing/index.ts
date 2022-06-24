@@ -1,7 +1,7 @@
 import { nxBaseCypressPreset } from '@nrwl/cypress/plugins/cypress-preset';
 import { getCSSModuleLocalIdent } from '@nrwl/web/src/utils/web.config';
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
-import { Configuration } from 'webpack';
+import type { Configuration } from 'webpack';
 
 /**
  * React nx preset for Cypress Component Testing
